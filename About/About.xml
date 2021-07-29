@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>ExtraPsycasts (Continued)</name>
+  <packageId>Mlie.ExtraPsycasts</packageId>
+  <author>chromiumboy</author>
+  <url>https://github.com/emipa606/ExtraPsycasts</url>
+  <supportedVersions>
+    <li>1.1</li>
+    <li>1.2</li>
+    <li>1.3</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+    </li>
+    <li>
+      <packageId>Ludeon.RimWorld.Royalty</packageId>
+      <displayName>Royalty</displayName>
+    </li>
+    <li>
+      <packageId>UnlimitedHugs.HugsLib</packageId>
+      <displayName>HugsLib</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/818773962</steamWorkshopUrl>
+      <downloadUrl>https://github.com/UnlimitedHugs/RimworldHugsLib/releases/latest</downloadUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>Ludeon.RimWorld.Royalty</li>
+    <li>UnlimitedHugs.HugsLib</li>
+  </loadAfter>
+  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+Update of chromiumboys mod
+https://steamcommunity.com/sharedfiles/filedetails/?id=2099341696
+
+[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+
+[table]
+    [tr]
+        [td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+        [td][url=https://github.com/emipa606/ExtraPsycasts][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+    [/tr]
+[/table]
+	
+[img]https://i.imgur.com/NOW7jU1.png[/img]
+Requires the Royalty Expansion for Rimworld.
+
+Adds a collection of 11 new psycasts to the Rimworld Royalty Expansion. These new abilities can be granted by upgrading a psychic amplifier and by obtaining the appropriate psytrainer through quest rewards or trading
+
+These extra psycasts include
+
+- Accelerate healing (Rank 1 psycast). Increases the rate at which a target&apos;s injuries heal and the rate infection immunity is gained.
+- Pyrokinesis (Rank 1 psycast). Starts a small fire at a target location. Does not require line of sight.
+- Precognition (Rank 2 psycast). Increases the psycaster&apos;s accuracy in combat and their melee dodge chance.
+- Soothe mind (Rank 2 psycast). Provides a target with positive moodlet, and snaps them out of any mental breaks they may be experiencing.
+- Fortitude (Rank 3 psycast). The target receives much less damage than usual.
+- Stasis (Rank 3 psycast). A friendly target goes into coma-like state. The rate at which their needs deplete will drastically slow, as will bleeding.
+- Telepathic link (Rank 3 psycast). The psycaster and a friendly target share some of the experience they gain with each other.
+- Cognitive enhancement (Rank 4 psycast). Increases the rate at which a friendly target is able to research.
+- Energise (Rank 4 psycast). Increases the movement speed of a friendly target and the rate at which they prefom manual labour.
+- Sense thoughts (Rank 4 psycast). Improves the performance of the psycaster in social encounters and when bartering.
+- Psychic lance (Rank 5 psycast). Deals damage directly to the target&apos;s brain (affects both organic and electronic brains).
+
+[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[/list]
+</description>
+</ModMetaData>
+

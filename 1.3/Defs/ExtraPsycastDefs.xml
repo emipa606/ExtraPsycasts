@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AbilityDef ParentName="PsycastBase">
+    <defName>ExtraPsycasts_AccelerateHealing</defName>
+    <label>accelerate healing</label>
+    <description>Hasten the natural healing processes of an injured creature.</description>
+    <level>1</level>
+    <iconPath>Icons/AccelerateHealing</iconPath>
+    <statBases>
+      <Ability_EntropyGain>10</Ability_EntropyGain>
+      <Ability_Duration>120</Ability_Duration>
+    </statBases>
+    <verbProperties>
+      <warmupTime>1</warmupTime>
+      <range>15</range>
+      <targetParams>
+        <canTargetSelf>True</canTargetSelf>
+        <canTargetMechs>False</canTargetMechs>
+        <canTargetAnimals>True</canTargetAnimals>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityGiveHediff">
+        <compClass>CompAbilityEffect_GiveHediff</compClass>
+        <hediffDef>ExtraPsycasts_AcceleratedHealing</hediffDef>
+        <onlyBrain>False</onlyBrain>
+        <psychic>True</psychic>
+      </li>
+    </comps>
+  </AbilityDef>
+  <AbilityDef ParentName="PsycastBase">
+    <defName>ExtraPsycasts_BrainBooster</defName>
+    <label>cognition enhancement</label>
+    <description>Boost the mental faculties of a friendly target so that they complete research tasks more quickly.</description>
+    <level>4</level>
+    <iconPath>Icons/BrainBooster</iconPath>
+    <statBases>
+      <Ability_EntropyGain>15</Ability_EntropyGain>
+      <Ability_Duration>120</Ability_Duration>
+    </statBases>
+    <verbProperties>
+      <warmupTime>0.25</warmupTime>
+      <range>25</range>
+      <targetParams>
+        <onlyTargetControlledPawns>True</onlyTargetControlledPawns>
+        <canTargetSelf>True</canTargetSelf>
+        <canTargetMechs>False</canTargetMechs>
+        <canTargetAnimals>False</canTargetAnimals>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityGiveHediff">
+        <compClass>CompAbilityEffect_GiveHediff</compClass>
+        <hediffDef>ExtraPsycasts_BrainBoost</hediffDef>
+        <psychic>True</psychic>
+      </li>
+    </comps>
+  </AbilityDef>
+  <AbilityDef ParentName="PsycastBase">
+    <defName>ExtraPsycasts_BodyBooster</defName>
+    <label>energise</label>
+    <description>Energise a friendly target, increasing their movement and unskilled labour speed.</description>
+    <level>4</level>
+    <iconPath>Icons/BodyBooster</iconPath>
+    <statBases>
+      <Ability_EntropyGain>15</Ability_EntropyGain>
+      <Ability_Duration>120</Ability_Duration>
+    </statBases>
+    <verbProperties>
+      <warmupTime>0.25</warmupTime>
+      <range>25</range>
+      <targetParams>
+        <onlyTargetControlledPawns>True</onlyTargetControlledPawns>
+        <canTargetSelf>True</canTargetSelf>
+        <canTargetMechs>False</canTargetMechs>
+        <canTargetAnimals>False</canTargetAnimals>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityGiveHediff">
+        <compClass>CompAbilityEffect_GiveHediff</compClass>
+        <hediffDef>ExtraPsycasts_BodyBoost</hediffDef>
+        <psychic>True</psychic>
+      </li>
+    </comps>
+  </AbilityDef>
+  <AbilityDef ParentName="PsycastBase">
+    <defName>ExtraPsycasts_Pyrokinesis</defName>
+    <label>pyrokinesis</label>
+    <description>Start a small fire with burst of psychic energy. Does not require line of sight to the target location.</description>
+    <level>1</level>
+    <iconPath>Icons/Pyrokinesis</iconPath>
+    <statBases>
+      <Ability_EntropyGain>20</Ability_EntropyGain>
+    </statBases>
+    <verbProperties>
+      <requireLineOfSight>False</requireLineOfSight>
+      <warmupTime>1</warmupTime>
+      <range>25</range>
+      <targetParams>
+        <canTargetPawns>False</canTargetPawns>
+        <canTargetLocations>True</canTargetLocations>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="ExtraPsycasts.CompProperties_ExtraPsycasts_Pyrokinesis">
+        <fireRadius>1</fireRadius>
+      </li>
+    </comps>
+  </AbilityDef>
+  <AbilityDef ParentName="PsycastBase">
+    <defName>ExtraPsycasts_SoothingThoughts</defName>
+    <label>soothe mind</label>
+    <description>Snap someone out of a mental break and help them forget their worries for a while.</description>
+    <level>2</level>
+    <iconPath>Icons/SoothingThoughts</iconPath>
+    <statBases>
+      <Ability_EntropyGain>10</Ability_EntropyGain>
+    </statBases>
+    <verbProperties>
+      <warmupTime>0.25</warmupTime>
+      <range>15</range>
+      <targetParams>
+        <canTargetSelf>False</canTargetSelf>
+        <canTargetMechs>False</canTargetMechs>
+        <canTargetAnimals>False</canTargetAnimals>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="ExtraPsycasts.CompProperties_ExtraPsycasts_ApplyThought">
+        <thought>SoothingThoughts</thought>
+      </li>
+      <li Class="ExtraPsycasts.CompProperties_ExtraPsycasts_ApplyMentalState" />
+      <!-- Will clear the current mental state if no new mental state is provided -->
+    </comps>
+  </AbilityDef>
+  <AbilityDef ParentName="PsycastBase">
+    <defName>ExtraPsycasts_SenseThoughts</defName>
+    <label>sense thoughts</label>
+    <description>Use telepathy to gain an advantage in social situations.</description>
+    <level>4</level>
+    <iconPath>Icons/SenseThoughts</iconPath>
+    <statBases>
+      <Ability_EntropyGain>30</Ability_EntropyGain>
+      <Ability_Duration>120</Ability_Duration>
+    </statBases>
+    <targetRequired>False</targetRequired>
+    <verbProperties>
+      <warmupTime>0.25</warmupTime>
+      <targetParams>
+        <canTargetSelf>True</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityGiveHediff">
+        <compClass>CompAbilityEffect_GiveHediff</compClass>
+        <hediffDef>ExtraPsycasts_SensingThoughts</hediffDef>
+        <psychic>True</psychic>
+      </li>
+    </comps>
+  </AbilityDef>
+  <AbilityDef ParentName="PsycastBase">
+    <defName>ExtraPsycasts_Precognition</defName>
+    <label>precognition</label>
+    <description>The caster can see events unfold moments before they occur, allowing them to predict the movements of their enemies.</description>
+    <level>2</level>
+    <iconPath>Icons/Precognition</iconPath>
+    <statBases>
+      <Ability_EntropyGain>10</Ability_EntropyGain>
+      <Ability_Duration>60</Ability_Duration>
+    </statBases>
+    <targetRequired>False</targetRequired>
+    <verbProperties>
+      <warmupTime>0.25</warmupTime>
+      <targetParams>
+        <canTargetSelf>True</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityGiveHediff">
+        <compClass>CompAbilityEffect_GiveHediff</compClass>
+        <hediffDef>ExtraPsycasts_Precognitating</hediffDef>
+        <psychic>True</psychic>
+      </li>
+    </comps>
+  </AbilityDef>
+  <AbilityDef ParentName="PsycastBase">
+    <defName>ExtraPsycasts_Stasis</defName>
+    <label>stasis</label>
+    <description>Send a friendly target into a comatose state, drastically reducing their need for basic necessities and steming bleeding.</description>
+    <level>3</level>
+    <iconPath>Icons/Stasis</iconPath>
+    <statBases>
+      <Ability_EntropyGain>20</Ability_EntropyGain>
+      <Ability_Duration>600</Ability_Duration>
+    </statBases>
+    <verbProperties>
+      <warmupTime>1</warmupTime>
+      <range>15</range>
+      <targetParams>
+        <onlyTargetControlledPawns>True</onlyTargetControlledPawns>
+        <canTargetSelf>True</canTargetSelf>
+        <canTargetMechs>False</canTargetMechs>
+        <canTargetAnimals>False</canTargetAnimals>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityGiveHediff">
+        <compClass>CompAbilityEffect_GiveHediff</compClass>
+        <hediffDef>ExtraPsycasts_StasisTorpor</hediffDef>
+        <onlyBrain>False</onlyBrain>
+        <durationMultiplier>PsychicSensitivity</durationMultiplier>
+        <psychic>True</psychic>
+      </li>
+    </comps>
+  </AbilityDef>
+  <AbilityDef ParentName="PsycastBase">
+    <defName>ExtraPsycasts_Fortitude</defName>
+    <label>fortitude</label>
+    <description>Fortify a target with psychic energy, allowing them to more easily withstand incoming damage.</description>
+    <level>3</level>
+    <iconPath>Icons/Fortitude</iconPath>
+    <statBases>
+      <Ability_EntropyGain>30</Ability_EntropyGain>
+      <Ability_Duration>60</Ability_Duration>
+    </statBases>
+    <verbProperties>
+      <warmupTime>1</warmupTime>
+      <range>20</range>
+      <targetParams>
+        <canTargetSelf>True</canTargetSelf>
+        <canTargetMechs>False</canTargetMechs>
+        <canTargetAnimals>True</canTargetAnimals>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityGiveHediff">
+        <compClass>CompAbilityEffect_GiveHediff</compClass>
+        <hediffDef>ExtraPsycasts_Fortified</hediffDef>
+        <onlyBrain>False</onlyBrain>
+        <psychic>True</psychic>
+      </li>
+    </comps>
+  </AbilityDef>
+  <AbilityDef ParentName="PsycastBase">
+    <defName>ExtraPsycasts_PsyLance</defName>
+    <label>psychic lance</label>
+    <description>Sear an enemy's mind with spike of pure psychic energy. Can damage electronic brains.</description>
+    <level>5</level>
+    <iconPath>Icons/PsyLance</iconPath>
+    <statBases>
+      <Ability_EntropyGain>25</Ability_EntropyGain>
+    </statBases>
+    <verbProperties>
+      <warmupTime>1</warmupTime>
+      <range>25</range>
+      <targetParams>
+        <canTargetSelf>False</canTargetSelf>
+        <canTargetMechs>True</canTargetMechs>
+        <canTargetAnimals>True</canTargetAnimals>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="ExtraPsycasts.CompProperties_ExtraPsycasts_PsyLance">
+        <damageAmount>5~7</damageAmount>
+        <damageDef>Psychic</damageDef>
+        <goodwillImpact>-20</goodwillImpact>
+      </li>
+    </comps>
+  </AbilityDef>
+  <AbilityDef ParentName="PsycastBase">
+    <defName>ExtraPsycasts_MindLink</defName>
+    <label>mind link</label>
+    <description>Form a psychic link between caster and target. Some of the skill experience gained by one linked member will be shared with the other. The link lasts for some time, but will break if the two move far apart.</description>
+    <level>3</level>
+    <iconPath>Icons/MindLink</iconPath>
+    <statBases>
+      <Ability_EntropyGain>50</Ability_EntropyGain>
+      <Ability_Duration>120</Ability_Duration>
+    </statBases>
+    <verbProperties>
+      <warmupTime>1</warmupTime>
+      <range>15</range>
+      <targetParams>
+        <onlyTargetControlledPawns>True</onlyTargetControlledPawns>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityGiveHediff">
+        <compClass>CompAbilityEffect_GiveHediff</compClass>
+        <hediffDef>ExtraPsycasts_ActiveMindLink</hediffDef>
+        <psychic>True</psychic>
+        <durationMultiplier>PsychicSensitivity</durationMultiplier>
+        <applyToSelf>True</applyToSelf>
+        <replaceExisting>True</replaceExisting>
+      </li>
+    </comps>
+  </AbilityDef>
+</Defs>

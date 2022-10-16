@@ -1,9 +1,8 @@
 ﻿using Verse;
 
-namespace ExtraPsycasts
+namespace ExtraPsycasts;
+
+public class HediffComp_MindLink : HediffComp
 {
-    public class HediffComp_MindLink : HediffComp
-    {
-        public HediffCompProperties_MindLink Props => (HediffCompProperties_MindLink) props;
-    }
+    public HediffCompProperties_MindLink Props => (HediffCompProperties_MindLink)props;
 }

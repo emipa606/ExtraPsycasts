@@ -14,5 +14,3 @@ public class Main
         harmony.PatchAll(Assembly.GetExecutingAssembly());
     }
 }
-
-// Patch SkillRecord.Learn so experience can be shared when individuals are linked

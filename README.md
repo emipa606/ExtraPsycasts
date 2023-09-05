@@ -41,4 +41,5 @@ These extra psycasts include
 
 
 
+https://steamcommunity.com/sharedfiles/filedetails/changelog/2560684411]![Image](https://img.shields.io/github/v/release/emipa606/ExtraPsycasts?label=latest%20version&style=plastic&color=9f1111&labelColor=black)
 

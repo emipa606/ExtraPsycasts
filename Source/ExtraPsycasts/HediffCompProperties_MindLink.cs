@@ -4,7 +4,7 @@ namespace ExtraPsycasts;
 
 public class HediffCompProperties_MindLink : HediffCompProperties
 {
-    public float xpMultiplier = 1;
+    public readonly float xpMultiplier = 1;
 
     public HediffCompProperties_MindLink()
     {

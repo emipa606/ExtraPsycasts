@@ -10,7 +10,7 @@ internal static class ExtraPsycasts_SkillRecord_Learn_Postfix
     // Code postfix 
     private static void Postfix(SkillRecord __instance, float xp, Pawn ___pawn, bool direct = false)
     {
-        // Exit if there no gain in experience
+        // Exit if there is no gain in experience
         if (xp <= 0)
         {
             return;

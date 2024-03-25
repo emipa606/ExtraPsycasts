@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThoughtDef>
+    <defName>SoothingThoughts</defName>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>soothing feeling</label>
+        <description>I feel strangely peaceful.</description>
+        <baseMoodEffect>15</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>

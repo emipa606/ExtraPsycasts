@@ -10,7 +10,6 @@ public class Main
 {
     static Main()
     {
-        var harmony = new Harmony("io.github.chromiumboy.extrapsycasts");
-        harmony.PatchAll(Assembly.GetExecutingAssembly());
+        new Harmony("io.github.chromiumboy.extrapsycasts").PatchAll(Assembly.GetExecutingAssembly());
     }
 }

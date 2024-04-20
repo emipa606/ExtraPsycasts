@@ -6,6 +6,9 @@
     <description>Hasten the natural healing processes of an injured creature.</description>
     <level>1</level>
     <iconPath>Icons/AccelerateHealing</iconPath>
+    <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+    <displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
     <statBases>
       <Ability_EntropyGain>10</Ability_EntropyGain>
       <Ability_Duration>120</Ability_Duration>
@@ -34,6 +37,9 @@
     <description>Boost the mental faculties of a friendly target so that they complete research tasks more quickly.</description>
     <level>4</level>
     <iconPath>Icons/BrainBooster</iconPath>
+    <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+    <displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
     <statBases>
       <Ability_EntropyGain>15</Ability_EntropyGain>
       <Ability_Duration>120</Ability_Duration>
@@ -62,6 +68,9 @@
     <description>Energise a friendly target, increasing their movement and unskilled labour speed.</description>
     <level>4</level>
     <iconPath>Icons/BodyBooster</iconPath>
+    <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+    <displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
     <statBases>
       <Ability_EntropyGain>15</Ability_EntropyGain>
       <Ability_Duration>120</Ability_Duration>
@@ -117,6 +126,9 @@
     <statBases>
       <Ability_EntropyGain>10</Ability_EntropyGain>
     </statBases>
+    <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+    <displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
     <verbProperties>
       <warmupTime>0.25</warmupTime>
       <range>15</range>
@@ -144,6 +156,9 @@
       <Ability_EntropyGain>30</Ability_EntropyGain>
       <Ability_Duration>120</Ability_Duration>
     </statBases>
+    <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+    <displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
     <targetRequired>False</targetRequired>
     <verbProperties>
       <warmupTime>0.25</warmupTime>
@@ -169,6 +184,9 @@
       <Ability_EntropyGain>10</Ability_EntropyGain>
       <Ability_Duration>60</Ability_Duration>
     </statBases>
+    <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+    <displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
     <targetRequired>False</targetRequired>
     <verbProperties>
       <warmupTime>0.25</warmupTime>
@@ -194,6 +212,9 @@
       <Ability_EntropyGain>20</Ability_EntropyGain>
       <Ability_Duration>600</Ability_Duration>
     </statBases>
+    <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+    <displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
     <verbProperties>
       <warmupTime>1</warmupTime>
       <range>15</range>
@@ -224,6 +245,9 @@
       <Ability_EntropyGain>30</Ability_EntropyGain>
       <Ability_Duration>60</Ability_Duration>
     </statBases>
+    <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+    <displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
     <verbProperties>
       <warmupTime>1</warmupTime>
       <range>20</range>
@@ -278,6 +302,9 @@
       <Ability_EntropyGain>50</Ability_EntropyGain>
       <Ability_Duration>120</Ability_Duration>
     </statBases>
+    <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+    <displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
     <verbProperties>
       <warmupTime>1</warmupTime>
       <range>15</range>

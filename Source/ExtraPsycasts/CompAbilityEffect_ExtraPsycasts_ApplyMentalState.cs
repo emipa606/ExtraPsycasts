@@ -18,7 +18,7 @@ public class CompAbilityEffect_ExtraPsycasts_ApplyMentalState : CompAbilityEffec
             return;
         }
 
-        if (target.Pawn.InMentalState == false)
+        if (!target.Pawn.InMentalState)
         {
             return;
         }

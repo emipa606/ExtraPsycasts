@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: accelerate healing -->
+  <ExtraPsycasts_AccelerateHealing.label>accelerate healing</ExtraPsycasts_AccelerateHealing.label>
+  <!-- EN: Hasten the natural healing processes of an injured creature. -->
+  <ExtraPsycasts_AccelerateHealing.description>Hasten the natural healing processes of an injured creature.</ExtraPsycasts_AccelerateHealing.description>
+  <!-- EN: energise -->
+  <ExtraPsycasts_BodyBooster.label>energise</ExtraPsycasts_BodyBooster.label>
+  <!-- EN: Energise a friendly target, increasing their movement and unskilled labour speed. -->
+  <ExtraPsycasts_BodyBooster.description>Energise a friendly target, increasing their movement and unskilled labour speed.</ExtraPsycasts_BodyBooster.description>
+  <!-- EN: cognition enhancement -->
+  <ExtraPsycasts_BrainBooster.label>cognition enhancement</ExtraPsycasts_BrainBooster.label>
+  <!-- EN: Boost the mental faculties of a friendly target so that they complete research tasks more quickly. -->
+  <ExtraPsycasts_BrainBooster.description>Boost the mental faculties of a friendly target so that they complete research tasks more quickly.</ExtraPsycasts_BrainBooster.description>
+  <!-- EN: fortitude -->
+  <ExtraPsycasts_Fortitude.label>fortitude</ExtraPsycasts_Fortitude.label>
+  <!-- EN: Fortify a target with psychic energy, allowing them to more easily withstand incoming damage. -->
+  <ExtraPsycasts_Fortitude.description>Fortify a target with psychic energy, allowing them to more easily withstand incoming damage.</ExtraPsycasts_Fortitude.description>
+  <!-- EN: mind link -->
+  <ExtraPsycasts_MindLink.label>mind link</ExtraPsycasts_MindLink.label>
+  <!-- EN: Form a psychic link between caster and target. Some of the skill experience gained by one linked member will be shared with the other. The link lasts for some time, but will break if the two move far apart. -->
+  <ExtraPsycasts_MindLink.description>Form a psychic link between caster and target. Some of the skill experience gained by one linked member will be shared with the other. The link lasts for some time, but will break if the two move far apart.</ExtraPsycasts_MindLink.description>
+  <!-- EN: precognition -->
+  <ExtraPsycasts_Precognition.label>precognition</ExtraPsycasts_Precognition.label>
+  <!-- EN: The caster can see events unfold moments before they occur, allowing them to predict the movements of their enemies. -->
+  <ExtraPsycasts_Precognition.description>The caster can see events unfold moments before they occur, allowing them to predict the movements of their enemies.</ExtraPsycasts_Precognition.description>
+  <!-- EN: psychic lance -->
+  <ExtraPsycasts_PsyLance.label>psychic lance</ExtraPsycasts_PsyLance.label>
+  <!-- EN: Sear an enemy's mind with spike of pure psychic energy. Can damage electronic brains. -->
+  <ExtraPsycasts_PsyLance.description>Sear an enemy's mind with spike of pure psychic energy. Can damage electronic brains.</ExtraPsycasts_PsyLance.description>
+  <!-- EN: pyrokinesis -->
+  <ExtraPsycasts_Pyrokinesis.label>pyrokinesis</ExtraPsycasts_Pyrokinesis.label>
+  <!-- EN: Start a small fire with burst of psychic energy. Does not require line of sight to the target location. -->
+  <ExtraPsycasts_Pyrokinesis.description>Start a small fire with burst of psychic energy. Does not require line of sight to the target location.</ExtraPsycasts_Pyrokinesis.description>
+  <!-- EN: sense thoughts -->
+  <ExtraPsycasts_SenseThoughts.label>sense thoughts</ExtraPsycasts_SenseThoughts.label>
+  <!-- EN: Use telepathy to gain an advantage in social situations. -->
+  <ExtraPsycasts_SenseThoughts.description>Use telepathy to gain an advantage in social situations.</ExtraPsycasts_SenseThoughts.description>
+  <!-- EN: soothe mind -->
+  <ExtraPsycasts_SoothingThoughts.label>soothe mind</ExtraPsycasts_SoothingThoughts.label>
+  <!-- EN: Snap someone out of a mental break and help them forget their worries for a while. -->
+  <ExtraPsycasts_SoothingThoughts.description>Snap someone out of a mental break and help them forget their worries for a while.</ExtraPsycasts_SoothingThoughts.description>
+  <!-- EN: stasis -->
+  <ExtraPsycasts_Stasis.label>stasis</ExtraPsycasts_Stasis.label>
+  <!-- EN: Send a friendly target into a comatose state, drastically reducing their need for basic necessities and steming bleeding. -->
+  <ExtraPsycasts_Stasis.description>Send a friendly target into a comatose state, drastically reducing their need for basic necessities and steming bleeding.</ExtraPsycasts_Stasis.description>
+</LanguageData>

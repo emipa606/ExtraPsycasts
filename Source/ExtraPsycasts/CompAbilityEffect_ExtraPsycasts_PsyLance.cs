@@ -5,7 +5,7 @@ namespace ExtraPsycasts;
 
 public class CompAbilityEffect_ExtraPsycasts_PsyLance : CompAbilityEffect
 {
-    public new CompProperties_ExtraPsycasts_PsyLance Props => (CompProperties_ExtraPsycasts_PsyLance)props;
+    private new CompProperties_ExtraPsycasts_PsyLance Props => (CompProperties_ExtraPsycasts_PsyLance)props;
 
     public override void Apply(LocalTargetInfo target, LocalTargetInfo dest)
     {

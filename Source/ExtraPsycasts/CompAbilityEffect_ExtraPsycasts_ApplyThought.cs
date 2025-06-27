@@ -5,7 +5,7 @@ namespace ExtraPsycasts;
 
 public class CompAbilityEffect_ExtraPsycasts_ApplyThought : CompAbilityEffect
 {
-    public new CompProperties_ExtraPsycasts_ApplyThought Props => (CompProperties_ExtraPsycasts_ApplyThought)props;
+    private new CompProperties_ExtraPsycasts_ApplyThought Props => (CompProperties_ExtraPsycasts_ApplyThought)props;
 
     public override void Apply(LocalTargetInfo target, LocalTargetInfo dest)
     {

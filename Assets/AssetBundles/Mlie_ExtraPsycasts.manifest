@@ -1,0 +1,30 @@
+ManifestFileVersion: 0
+CRC: 793488071
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 635f88e1f849a8e53a6a51597b6af74a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 635f88e1f849a8e53a6a51597b6af74a
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.ExtraPsycasts/Textures/Icons/Stasis.png
+- Assets/Data/Mlie.ExtraPsycasts/Textures/Icons/Pyrokinesis.png
+- Assets/Data/Mlie.ExtraPsycasts/Textures/Icons/SoothingThoughts.png
+- Assets/Data/Mlie.ExtraPsycasts/Textures/Icons/BodyBooster.png
+- Assets/Data/Mlie.ExtraPsycasts/Textures/Icons/Fortitude.png
+- Assets/Data/Mlie.ExtraPsycasts/Textures/Icons/SenseThoughts.png
+- Assets/Data/Mlie.ExtraPsycasts/Textures/Icons/Precognition.png
+- Assets/Data/Mlie.ExtraPsycasts/Textures/Icons/BrainBooster.png
+- Assets/Data/Mlie.ExtraPsycasts/Textures/Icons/AccelerateHealing.png
+- Assets/Data/Mlie.ExtraPsycasts/Textures/Icons/PsyLance.png
+- Assets/Data/Mlie.ExtraPsycasts/Textures/Icons/MindLink.png
+Dependencies: []

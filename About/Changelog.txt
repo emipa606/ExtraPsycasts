@@ -1,5 +1,8 @@
 # Changelog for ExtraPsycasts
 
+1.6.0 - Mod updated for 1.6 and passed autotests
+
+
 1.5.1 - Non-aggressive psycasts should now be castable while undrafted and by pawns incapable of violence
 
 

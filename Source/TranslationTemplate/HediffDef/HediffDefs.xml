@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: psychically-accelerated healing -->
+  <ExtraPsycasts_AcceleratedHealing.label>psychically-accelerated healing</ExtraPsycasts_AcceleratedHealing.label>
+  <!-- EN: This creature is healing at a much faster rate than is natural. This rapid regeneration will make them hungrier than usual. -->
+  <ExtraPsycasts_AcceleratedHealing.description>This creature is healing at a much faster rate than is natural. This rapid regeneration will make them hungrier than usual.</ExtraPsycasts_AcceleratedHealing.description>
+  <!-- EN: mind link -->
+  <ExtraPsycasts_ActiveMindLink.label>mind link</ExtraPsycasts_ActiveMindLink.label>
+  <!-- EN: A psychic link with another individual. Some of the skill experience gained by one linked member will be shared with the other, providing they have the capacity to learn the skill in question. -->
+  <ExtraPsycasts_ActiveMindLink.description>A psychic link with another individual. Some of the skill experience gained by one linked member will be shared with the other, providing they have the capacity to learn the skill in question.</ExtraPsycasts_ActiveMindLink.description>
+  <!-- EN: psychically-amped body -->
+  <ExtraPsycasts_BodyBoost.label>psychically-amped body</ExtraPsycasts_BodyBoost.label>
+  <!-- EN: This person is flush up with psychic energy. They will move faster and finish manual tasks more quickly. The extra calories they burn will also make them hungier than usual. -->
+  <ExtraPsycasts_BodyBoost.description>This person is flush up with psychic energy. They will move faster and finish manual tasks more quickly. The extra calories they burn will also make them hungier than usual.</ExtraPsycasts_BodyBoost.description>
+  <!-- EN: psychically-enchanced mind -->
+  <ExtraPsycasts_BrainBoost.label>psychically-enchanced mind</ExtraPsycasts_BrainBoost.label>
+  <!-- EN: This mind can follow multiple lines of thought simultaneously, allowing research to conducted much more quickly. However, this extra cerebral activity is tiring. -->
+  <ExtraPsycasts_BrainBoost.description>This mind can follow multiple lines of thought simultaneously, allowing research to conducted much more quickly. However, this extra cerebral activity is tiring.</ExtraPsycasts_BrainBoost.description>
+  <!-- EN: psychically-fortified -->
+  <ExtraPsycasts_Fortified.label>psychically-fortified</ExtraPsycasts_Fortified.label>
+  <!-- EN: Psychic energy courses through this creatures body, hardening skin, bone and sinew. While this will substantially reduce incoming damage, it also hampers their movements a little. -->
+  <ExtraPsycasts_Fortified.description>Psychic energy courses through this creatures body, hardening skin, bone and sinew. While this will substantially reduce incoming damage, it also hampers their movements a little.</ExtraPsycasts_Fortified.description>
+  <!-- EN: receiving premonitions -->
+  <ExtraPsycasts_Precognitating.label>receiving premonitions</ExtraPsycasts_Precognitating.label>
+  <!-- EN: This mind is receiving flashes of the immediate future, warning of imminent danger as well as the intended movements of nearby foes. -->
+  <ExtraPsycasts_Precognitating.description>This mind is receiving flashes of the immediate future, warning of imminent danger as well as the intended movements of nearby foes.</ExtraPsycasts_Precognitating.description>
+  <!-- EN: sensing others thoughts -->
+  <ExtraPsycasts_SensingThoughts.label>sensing others thoughts</ExtraPsycasts_SensingThoughts.label>
+  <!-- EN: This mind can perceive the surface level thoughts and emotions of others nearby. This low-level telepathy gives a decided edge in negotiations, finding common ground in conversation, and the crafting of perfectly tailored insults. -->
+  <ExtraPsycasts_SensingThoughts.description>This mind can perceive the surface level thoughts and emotions of others nearby. This low-level telepathy gives a decided edge in negotiations, finding common ground in conversation, and the crafting of perfectly tailored insults.</ExtraPsycasts_SensingThoughts.description>
+  <!-- EN: in a psychically-induced coma -->
+  <ExtraPsycasts_StasisTorpor.label>in a psychically-induced coma</ExtraPsycasts_StasisTorpor.label>
+  <!-- EN: This creature is in stasis. Most biological functions have been substantially slowed, reducing the need for food and rest, as well as slowing any bleeding. -->
+  <ExtraPsycasts_StasisTorpor.description>This creature is in stasis. Most biological functions have been substantially slowed, reducing the need for food and rest, as well as slowing any bleeding.</ExtraPsycasts_StasisTorpor.description>
+</LanguageData>

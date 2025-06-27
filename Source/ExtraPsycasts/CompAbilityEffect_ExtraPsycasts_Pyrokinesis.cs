@@ -5,7 +5,7 @@ namespace ExtraPsycasts;
 
 public class CompAbilityEffect_ExtraPsycasts_Pyrokinesis : CompAbilityEffect
 {
-    public new CompProperties_ExtraPsycasts_Pyrokinesis Props => (CompProperties_ExtraPsycasts_Pyrokinesis)props;
+    private new CompProperties_ExtraPsycasts_Pyrokinesis Props => (CompProperties_ExtraPsycasts_Pyrokinesis)props;
 
     public override void Apply(LocalTargetInfo target, LocalTargetInfo dest)
     {

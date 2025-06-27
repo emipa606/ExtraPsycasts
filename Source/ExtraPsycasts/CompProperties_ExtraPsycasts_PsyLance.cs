@@ -5,7 +5,7 @@ namespace ExtraPsycasts;
 
 public class CompProperties_ExtraPsycasts_PsyLance : CompProperties_AbilityEffect
 {
-    public IntRange damageAmount = IntRange.zero;
+    public IntRange damageAmount = IntRange.Invalid;
     public DamageDef damageDef;
 
     public CompProperties_ExtraPsycasts_PsyLance()

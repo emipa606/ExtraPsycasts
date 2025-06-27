@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: psychic burn -->
+  <Psychic.label>psychic burn</Psychic.label>
+  <!-- EN: {0} has died from psychically-induced trauma. -->
+  <Psychic.deathMessage>{0} has died from psychically-induced trauma.</Psychic.deathMessage>
+</LanguageData>

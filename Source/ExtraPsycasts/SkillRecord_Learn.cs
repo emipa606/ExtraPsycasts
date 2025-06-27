@@ -4,8 +4,8 @@ using Verse;
 
 namespace ExtraPsycasts;
 
-[HarmonyPatch(typeof(SkillRecord), "Learn")]
-internal static class ExtraPsycasts_SkillRecord_Learn_Postfix
+[HarmonyPatch(typeof(SkillRecord), nameof(SkillRecord.Learn))]
+internal static class SkillRecord_Learn
 {
     // Code postfix 
     private static void Postfix(SkillRecord __instance, float xp, Pawn ___pawn, bool direct = false)
@@ -22,26 +22,26 @@ internal static class ExtraPsycasts_SkillRecord_Learn_Postfix
         foreach (var hediff in ___pawn.health.hediffSet.hediffs)
         {
             // Continue if the hediff does not have the right components
-            var hediffComp_Link_MindLink = hediff.TryGetComp<HediffComp_Link_MindLink>();
-            var hediffComp_MindLink = hediff.TryGetComp<HediffComp_MindLink>();
-            if (hediffComp_Link_MindLink == null || hediffComp_MindLink == null)
+            var hediffCompLinkMindLink = hediff.TryGetComp<HediffComp_Link_MindLink>();
+            var hediffCompMindLink = hediff.TryGetComp<HediffComp_MindLink>();
+            if (hediffCompLinkMindLink == null || hediffCompMindLink == null)
             {
                 continue;
             }
 
-            if (hediffComp_Link_MindLink.other is not Pawn otherPawn)
+            if (hediffCompLinkMindLink.other is not Pawn otherPawn)
             {
                 continue;
             }
 
             // Otherwise pass this experience to the SkillRecord's new 'learn from another' method
             otherPawn.skills.GetSkill(__instance.def)
-                .LearnFromAnother(xp * hediffComp_MindLink.Props.xpMultiplier, direct);
+                .LearnFromAnother(xp * hediffCompMindLink.Props.xpMultiplier, direct);
 
             // Create motes to signify the transfer of experience
             //Log.Message("setting pulse color");
             var mote = DefDatabase<ThingDef>.GetNamed("Mote_PsychicLinkPulse_MindLink");
-            MoteMaker.MakeInteractionOverlay(mote, ___pawn, hediffComp_Link_MindLink.other);
+            MoteMaker.MakeInteractionOverlay(mote, ___pawn, hediffCompLinkMindLink.other);
 
             break;
         }

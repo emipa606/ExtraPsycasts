@@ -17,7 +17,6 @@ public class HediffComp_Link_MindLink : HediffComp_Link
 
         if (mote == null || mote.def.defName != "Mote_PsychicLinkLine_MindLink")
         {
-            //Log.Message("setting link color");
             mote?.DeSpawn();
 
             var linkMote = DefDatabase<ThingDef>.GetNamed("Mote_PsychicLinkLine_MindLink");

@@ -6,7 +6,7 @@ namespace ExtraPsycasts;
 
 public class CompAbilityEffect_ExtraPsycasts_ApplyMentalState : CompAbilityEffect
 {
-    public new CompProperties_ExtraPsycasts_ApplyMentalState Props =>
+    private new CompProperties_ExtraPsycasts_ApplyMentalState Props =>
         (CompProperties_ExtraPsycasts_ApplyMentalState)props;
 
     public override void Apply(LocalTargetInfo target, LocalTargetInfo dest)

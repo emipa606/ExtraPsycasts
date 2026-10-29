@@ -8,7 +8,7 @@ namespace ExtraPsycasts;
 internal static class SkillRecord_Learn
 {
     // Code postfix 
-    private static void Postfix(SkillRecord __instance, float xp, Pawn ___pawn, bool direct = false)
+    public static void Postfix(SkillRecord __instance, float xp, Pawn ___pawn, bool direct = false)
     {
         // Exit if there is no gain in experience
         if (xp <= 0)
@@ -39,7 +39,6 @@ internal static class SkillRecord_Learn
                 .LearnFromAnother(xp * hediffCompMindLink.Props.xpMultiplier, direct);
 
             // Create motes to signify the transfer of experience
-            //Log.Message("setting pulse color");
             var mote = DefDatabase<ThingDef>.GetNamed("Mote_PsychicLinkPulse_MindLink");
             MoteMaker.MakeInteractionOverlay(mote, ___pawn, hediffCompLinkMindLink.other);
 

@@ -6,7 +6,7 @@ namespace ExtraPsycasts;
 
 // Execute Harmony patching
 [StaticConstructorOnStartup]
-public class Main
+public static class Main
 {
     static Main()
     {

@@ -21,6 +21,6 @@ public class CompAbilityEffect_ExtraPsycasts_PsyLance : CompAbilityEffect
         var damageInfo = new DamageInfo(Props.damageDef, randomInRange, 0f, -1f, null, brain);
         damageInfo.SetIgnoreArmor(true);
 
-        target.Pawn.TakeDamage(damageInfo);
+        target.Pawn?.TakeDamage(damageInfo);
     }
 }

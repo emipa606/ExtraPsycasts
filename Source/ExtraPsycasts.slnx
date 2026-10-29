@@ -3,4 +3,17 @@
     <BuildType Name="Release" />
   </Configurations>
   <Project Path="ExtraPsycasts/ExtraPsycasts.csproj" />
+  <Folder Name="/.github/">
+    <File Path="../.github/copilot-instructions.md" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/">
+    <File Path="../1.7/Defs/DamagesDefs.xml" />
+    <File Path="../1.7/Defs/ExtraPsycastDefs.xml" />
+    <File Path="../1.7/Defs/HediffDefs.xml" />
+    <File Path="../1.7/Defs/Mote_Visual.xml" />
+    <File Path="../1.7/Defs/ThoughtDefs.xml" />
+  </Folder>
+  <Folder Name="/XML/About/">
+    <File Path="../About/about.xml" />
+  </Folder>
 </Solution>
